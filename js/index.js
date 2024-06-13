@@ -19,7 +19,7 @@ function login(event) {
   // Verifica se as informações fornecidas correspondem com as informações salvas
   if (email === storedEmail && password === storedPassword) {
     console.log('Login bem-sucedido!');
-    window.location.href = '/dashboard.html';
+    window.location.href = 'dashboard2.html';
   } else {
     console.log('Usuário ou senha inválidos.');
     alert('Usuário ou senha inválidos.');
